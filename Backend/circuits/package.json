@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "@crema-labs/ecdsa-p384-circom": "^0.0.1", 
+    "@iden3/js-crypto": "^1.0.0"
+  }
+}
