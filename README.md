@@ -75,17 +75,12 @@
         ```env
         # For Vite:
         VITE_BACKEND_URL=http://localhost:5001
-
-        # For Create React App:
-        # REACT_APP_BACKEND_URL=http://localhost:5001
         ```
     *   The frontend code (`UploadFingerprints.tsx`) uses this environment variable first, falling back to `http://localhost:5001`.
 
 4.  **Run the Frontend Development Server:**
     ```bash
     npm run dev # Vite standard command
-    # OR
-    # npm start # Create React App standard command
     ```
     *   The development server will usually start on `http://localhost:3000` or another port.
 
