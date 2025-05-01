@@ -33,7 +33,7 @@
         bash run_full_setup.sh # Execute your setup script
         cd ..
         ```
-    *   **Verification:** After setup, ensure the `backend/circuits/build/` directory exists and contains the `.wasm`, `generate_witness.js`, `.zkey` (e.g., `<Your Circuit Name>_0001.zkey`), and `verification_key.json` files.
+    *   **Verification:** After setup, verify that the build/ directory exists inside backend/circuits/ and contains the .wasm, generate_witness.js, .zkey (e.g., `<Your Circuit Name>_0001.zkey`), and verification_key.json.
     *   **ZKey Name:** Verify that the `ZKEY_FILENAME` constant in `backend/src/server.ts` **matches** the actual `.zkey` filename generated in the `build/` directory.
     *   **Script Permissions:** Make the execution script executable:
         ```bash
